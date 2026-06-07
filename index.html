@@ -48,8 +48,7 @@
                     const info=data
                     result.innerHTML =
                         `
-                    <div class="col-4"></div>
-                         <div class="col-4 bg-blue text-light mt-2">
+                         <div class="container d-flex justify-content-center bg-blue text-light mt-2">
                             <div class="card bg-primary text-light" style="width: 18rem;">
                                   <img src="https://static.vecteezy.com/system/resources/thumbnails/053/366/642/small_2x/weather-forecast-rgb-color-icon-various-weather-patterns-changing-atmospheric-conditions-meteorology-icon-isolated-illustration-simple-filled-line-drawing-editable-stroke-vector.jpg" class="card-img-top" height="250px" alt="...">
                                 <div class="card-body">
@@ -60,9 +59,8 @@
                                  <p>WindSpeed:  ${info.wind.speed}</p>
                              
                                 </div>
+                            </div>
                         </div>
-                                        </div>
-                            <div class="col-4"></div>
                     `
                 })
             }else{alert(`not Valid`)}
